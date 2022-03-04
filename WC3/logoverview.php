@@ -14,7 +14,7 @@
 		// Output one line until end-of-file
 		while(!feof($myFile)) {
 			echo fgets($myFile);
-			echo "<br>";
+            echo "<br>";
 		}
 		fclose($myFile);
 	?>
